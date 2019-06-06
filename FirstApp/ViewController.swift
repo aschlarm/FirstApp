@@ -17,10 +17,13 @@ class ViewController: UIViewController {
     
     @IBAction func ButtonClick(_ sender: UIButton) {
         print("Button Pressed")
-        if Name.text != " " {
+        if Name.text == "" || Name.text == nil {
+            label.text = "Please type your name and try again"
+            Welcome.isHidden = true
+        } else {
             label.text = Name.text
             let TempName = Name.text
-            Welcome.text = "Hello " + TempName!
+            Welcome.text = "Hello " + TempName! + ", how are you?"
             
             if Welcome.isHidden {
                 Welcome.isHidden = false
@@ -28,11 +31,9 @@ class ViewController: UIViewController {
             else {
                 Welcome.isHidden = true
             }
-        } else {
-            label.text = "Please type your name and try again"
-            Welcome.isHidden = true
         }
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

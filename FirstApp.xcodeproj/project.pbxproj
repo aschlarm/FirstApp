@@ -14,6 +14,7 @@
 		F585034122A8A67D00DC65B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F585033F22A8A67D00DC65B9 /* LaunchScreen.storyboard */; };
 		F585034C22A8A67D00DC65B9 /* FirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585034B22A8A67D00DC65B9 /* FirstAppTests.swift */; };
 		F585035722A8A67D00DC65B9 /* FirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585035622A8A67D00DC65B9 /* FirstAppUITests.swift */; };
+		F585036522A8CD9500DC65B9 /* SkyWaveInnovations.png in Resources */ = {isa = PBXBuildFile; fileRef = F585036422A8CD9500DC65B9 /* SkyWaveInnovations.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F585035222A8A67D00DC65B9 /* FirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F585035622A8A67D00DC65B9 /* FirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITests.swift; sourceTree = "<group>"; };
 		F585035822A8A67D00DC65B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F585036422A8CD9500DC65B9 /* SkyWaveInnovations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SkyWaveInnovations.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				F585033D22A8A67D00DC65B9 /* Assets.xcassets */,
 				F585033F22A8A67D00DC65B9 /* LaunchScreen.storyboard */,
 				F585034222A8A67D00DC65B9 /* Info.plist */,
+				F585036422A8CD9500DC65B9 /* SkyWaveInnovations.png */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				F585034122A8A67D00DC65B9 /* LaunchScreen.storyboard in Resources */,
 				F585033E22A8A67D00DC65B9 /* Assets.xcassets in Resources */,
 				F585033C22A8A67A00DC65B9 /* Main.storyboard in Resources */,
+				F585036522A8CD9500DC65B9 /* SkyWaveInnovations.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
